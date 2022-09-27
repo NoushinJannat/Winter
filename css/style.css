@@ -831,6 +831,35 @@ article.blog-details p {
     footer section Css end
 ==========================================
 */
+@media (min-width: 991px) and (max-width: 2000px) {
+  html {
+    font-size: 55%;
+  }
+  .header {
+    padding: 2rem;
+  }
+  section {
+    padding: 2rem;
+  }
+  .container {
+    max-width: 960px;
+  }
+  h2.blog-title {
+    font-size: 17px;
+  }
+  .review-text {
+    margin-top: 35px;
+    font-size: 25px;
+  }
+
+  .footer .box-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(25rem, 1fr)) [auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   html {

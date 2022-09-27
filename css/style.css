@@ -831,7 +831,7 @@ article.blog-details p {
     footer section Css end
 ==========================================
 */
-@media (min-width: 991px) and (max-width: 2000px) {
+@media (min-width: 990px) and (max-width: 2000px) {
   html {
     font-size: 55%;
   }
